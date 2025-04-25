@@ -1,1 +1,1 @@
-# Expense-splitter
+# Expense-Splitter-Application
