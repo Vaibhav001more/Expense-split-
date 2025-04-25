@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Expense Splitter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>💸 Smart Expense Splitter</h1>
+        <p>Split bills easily, fairly, and fast!</p>
+
+        <div class="input-group">
+            <input type="number" id="totalAmount" placeholder="Total Expense (₹)">
+            <input type="number" id="peopleCount" placeholder="Number of People">
+        </div>
+
+        <div class="input-group">
+            <input type="text" id="payerName" placeholder="Who Paid? (Optional)">
+            <input type="text" id="expenseNote" placeholder="Note (e.g., Dinner, Trip)">
+        </div>
+
+        <button onclick="splitExpense()">💥 Split Expense</button>
+
+        <div id="result" class="result-box"></div>
+
+        <h3>Expense History</h3>
+        <ul id="historyList" class="history-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
