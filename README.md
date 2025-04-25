@@ -1,1 +1,1 @@
-# Expense-split-
+# Expense-splitter
